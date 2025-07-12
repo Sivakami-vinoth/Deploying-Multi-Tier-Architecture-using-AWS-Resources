@@ -45,9 +45,12 @@ You DO NOT have to write any code or create the application as such. It will nee
 MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 **********************************************************************************************************************************
 
-**Step:1 Create an VPC**
+****Step:1 Create an VPC****
+
 •	Login to AWS Console
+
 •	Goto-> Services-> VPC
+
 •	Click on Create VPC
 
 <img width="602" height="141" alt="Image" src="https://github.com/user-attachments/assets/e37b02b9-d155-42b5-a9fa-611d7b4ca6b6" />
@@ -58,7 +61,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="191" alt="Image" src="https://github.com/user-attachments/assets/cb7a3e30-0725-4286-8758-0ceb89a09691" />
 
-**Step:2 Create Subnets**
+****Step:2 Create Subnets****
 
 <img width="602" height="125" alt="Image" src="https://github.com/user-attachments/assets/736a959a-6edb-4e23-b1bc-cbd040400cf9" />
 
@@ -72,7 +75,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="170" alt="image" src="https://github.com/user-attachments/assets/c7cea6bd-9b9c-4bcf-aaeb-20542d89d38c" />
 
-**Step:3 Create Internet Gateway and attach to the VPC**
+****Step:3 Create Internet Gateway and attach to the VPC****
 
 <img width="602" height="115" alt="image" src="https://github.com/user-attachments/assets/d4ce41a6-eb7f-4ee5-a50a-e58cae0db77e" />
 
@@ -84,7 +87,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="291" alt="image" src="https://github.com/user-attachments/assets/50fcae90-62ce-430a-9ca0-610afc07786f" />
 
-**Step:3 Create NAT Gateway**
+****Step:3 Create NAT Gateway****
 
 <img width="602" height="170" alt="image" src="https://github.com/user-attachments/assets/bfa6c15f-90d6-40bb-9517-3ab4af0f62e4" />
 
@@ -94,7 +97,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="202" alt="image" src="https://github.com/user-attachments/assets/7842bec3-05f3-4382-99d8-e63c23c4de3d" />
 
-**Step: 4 Create Route tables for public subnets and Edit Route to add Internet gateway**
+****Step: 4 Create Route tables for public subnets and Edit Route to add Internet gateway****
 
 <img width="602" height="103" alt="image" src="https://github.com/user-attachments/assets/4d028815-906b-4e00-8435-667cabf00b3a" />
 
@@ -110,7 +113,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="294" alt="image" src="https://github.com/user-attachments/assets/34416c65-e263-48d2-9ee5-434f549cd5f6" />
 
-**Step:5 Create Route table for private subnet and Edit route to add NAT gateway**
+****Step:5 Create Route table for private subnet and Edit route to add NAT gateway****
 
 <img width="602" height="105" alt="image" src="https://github.com/user-attachments/assets/10ebc141-a36b-45ca-95e4-ec82f39e6849" />
 
@@ -128,7 +131,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="232" alt="image" src="https://github.com/user-attachments/assets/db88fd66-ee91-42e7-afd8-6842c0746bd4" />
 
-**Step:6 Create 2 EC2 Instances one in public subnet and other one in private subnet**
+****Step:6 Create 2 EC2 Instances one in public subnet and other one in private subnet****
 
 <img width="602" height="198" alt="image" src="https://github.com/user-attachments/assets/30f1c26f-66a8-4f3d-b5bc-5df26009a77a" />
 
@@ -140,7 +143,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="63" alt="image" src="https://github.com/user-attachments/assets/27f4b7a2-6e2b-4fa9-b1ce-66da250bb4d4" />
 
-**Similarly create one more instance in private subnet**
+****Similarly create one more instance in private subnet****
 
 <img width="523" height="396" alt="image" src="https://github.com/user-attachments/assets/4d465cdc-5b1f-456a-8ef8-9503e29345a4" />
 
@@ -148,7 +151,7 @@ MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE.
 
 <img width="602" height="68" alt="image" src="https://github.com/user-attachments/assets/940df3e1-be02-4fdf-a318-94fb70e781a1" />
 
-**Step:7 Create S3 bucket and uplaod files in it**
+****Step:7 Create S3 bucket and uplaod files in it****
 
 <img width="602" height="110" alt="image" src="https://github.com/user-attachments/assets/a138623a-1e3b-4386-9b2a-d4bcdae3bf4e" />
 
