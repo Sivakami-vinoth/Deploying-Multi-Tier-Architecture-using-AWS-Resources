@@ -5,7 +5,7 @@ A firm wants to launch their new application. To reduce cost it has been decided
 
 To buy videos, movies and wallpapers stored in the application customers have to pay some amount using their credit card. Customer will have to provide their home address and some other personal information as well. 
 
- Following are some of the requirements:  
+** Following are some of the requirements:  **
 
 1. The most important requirement is that the application should be very much secure and none of the servers (front-end UI, back-end application, database) should be available over Internet.  
 
@@ -36,7 +36,7 @@ Deploying multi tier archtecture using AWS Resources
 
 <img width="473" alt="image" src="https://github.com/Sivakami-vinoth/Deploying-Multi-Tier-Architecture-using-AWS-Resources/assets/125202974/00f0f756-3c18-467e-b2ca-1bc112e6097b">
 
-Lab Environment:  
+**Lab Environment: ** 
 
 Set up AWS environment with the following components. Remember, you DO NOT have to create the application, just set up the architecture using AWS services and make sure you understand which services to use where. This is a typical media services domain application, but with much less complexities. 
 
@@ -66,7 +66,7 @@ Set up AWS environment with the following components. Remember, you DO NOT have 
 
 13. ElastiCache  
 
-Hint:  
+**Hint:  **
 
 Architecture has already been given; you have to first map the architecture with AWS services. Check the requirements multiple times; you have to implement all the provided requirements in AWS. Some services have to be pulled in and placed in the architecture to fulfill all the requirements. Lab environment already mentions all the required services, try to use those in the architecture and create the application.  
 
@@ -74,7 +74,7 @@ You DO NOT have to write any code or create the application as such. It will nee
 
 MAKE SURE TO TERMINATE ALL THE SERVICES ONCE YOU ARE DONE WITH THE EXERCISE. 
 
-Step:1 Create an VPC 
+**Step:1 Create an VPC** 
 
 Login to AWS Console 
 
